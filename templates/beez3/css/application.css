@@ -1,0 +1,100 @@
+.header_i .lang li.active a {
+	color: #70bb1f;
+}
+/*main menu*/
+.sub-menu .list li.active a {
+	color: #5971bb;
+}
+.no-touch .sub-menu .list li.active a:hover {
+	color: #5971bb;
+}
+.hide-info {
+	position: fixed;
+	bottom: auto;
+	top: 50%;
+	left: 50%;
+	height: 90px;
+	margin-top: -95px;
+	margin-left: -300px;
+}
+.about-center .list .col .row p {
+	text-align: left;
+	margin-right: 75px;
+}
+.news-content__980 .social {
+	margin-top: 20px;
+}
+
+a.logo img {
+    width: 169px;
+}
+/*
+.btn-menu .text-link, .btn-menu .text {
+    position: absolute;
+    top: 6px;
+    left: 75px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #70bb1f;
+    text-transform: uppercase;
+    font-family: 'GothamProRegular', sans-serif;
+    letter-spacing: 2px;
+    -moz-transition: all, 0.8s;
+    -o-transition: all, 0.8s;
+    -webkit-transition: all, 0.8s;
+    transition: all, 0.8s;
+    display: inline-block;
+    width: 200px;
+}
+*/
+.order .inp.active .btn.btn-hide {
+	cursor: pointer;
+}
+
+span.left_el {
+    width: 5px;
+    height: 1px;
+    background: #020202;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 2px;
+}
+
+span.right_el {
+      width: 5px;
+    height: 1px;
+    background: #020202;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 2px;
+}
+.post-block strong {
+	font-weight: bold;
+}
+.news-content__980 .post-block p {
+	text-align: left;
+	padding-bottom: 10px;
+}
+.sub-menu .IN-widget {
+	float: right;
+}
+.home-header .slider-home_i li span.h1 {
+	font-size: 60px;
+	color: #fff;
+	line-height: 70px;
+	text-transform: uppercase;
+	font-family: 'AthelasRegular', sans-serif;
+	letter-spacing: 3px;
+	padding-bottom: 25px;
+}
+
+
+li {}
+
+.ols li {
+    font-size: 1.3rem;
+    font-family: 'GothamProRegular', sans-serif;
+    color: #5971bb;
+}
