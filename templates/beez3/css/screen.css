@@ -3845,6 +3845,7 @@ footer {
 
 .contact-header .slider-contact .tabs .tabs_i.active .text {
 	color: #fff;
+        float: none;
 }
 
 .contact-header .slider-contact .tabs .tabs_i.active .row {
@@ -6758,10 +6759,10 @@ footer {
 }
 
 .map .close {
-	position: absolute;
-	top: -6px;
-	z-index: 100;
-	right: 8px;
+	    position: absolute;
+    top: -49px;
+    z-index: 100;
+    right: -34px;
 }
 
 .map .close .close_i .top:after,

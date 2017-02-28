@@ -84,7 +84,7 @@ require __DIR__ . '/jsstrings.php';
         
         <link rel="icon" href="/templates/beez3/favicon.png" type="image/x-icon">
         <link rel="shortcut icon" href="/templates/beez3/favicon.png" type="image/x-icon">
-        
+        <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 	</head>
 	<body>
         <div class="preloader">

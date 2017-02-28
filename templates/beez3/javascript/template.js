@@ -50,5 +50,9 @@
 				$("label[for=" + $(this).attr('id') + "]").addClass('active btn-success');
 			}
 		});
+        
+        
+      
+        
 	})
 })(jQuery);
