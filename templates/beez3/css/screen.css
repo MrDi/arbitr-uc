@@ -6774,6 +6774,13 @@ footer {
 .map .close .close_i .bottom:before {
 	background: #fff;
 }
+strong {
+    font-weight: 700;
+}
+
+li p {
+    text-align: left;
+}
 
 .map.active {
 	display: block;
@@ -8572,23 +8579,69 @@ h2 {
     top: -24px;
     font-size: 71px;
     color: #5971bb;
+    text-align: right;
+    width: 40px;
 }
 
 .grid_li ul li.num_2:before {
     content: '2';
 }
 
+.grid_li.li_w ul li {
+    width: 100%;
+        margin: 2px 0 23px 0;
+}
+
+p.t2 {
+    font-size: 1.3rem;
+    margin: 30px 0;
+        line-height: 1.7rem;
+    font-weight: 900;
+}
 .grid_li ul li.num_3:before {
     content: '3';
 }
-
+.grid_li.li_w li p {
+    padding: 0;
+    margin-bottom: 0;
+}
+.grid_li.li_w ul li:before {
+    position: absolute;
+    left: 0;
+    top: 21px;
+    font-size: 51px;
+    color: #ffffff;
+    text-align: right;
+    width: 40px;
+}
 .grid_li ul li.num_4:before {
     content: '4';
+}
+
+.grid_li.li_w {
+    margin-top: 40px;
 }
 
 
 .grid_li ul li.num_5:before {
     content: '5';
+}
+
+.grid_li ul li.num_6:before {
+    content: '6';
+}
+
+
+.grid_li ul li.num_7:before {
+    content: '7';
+}
+
+.grid_li ul li.num_8:before {
+    content: '8';
+}
+
+.grid_li ul li.num_9:before {
+    content: '9';
 }
 .grid_li ul li {
     width: 26.3333%;

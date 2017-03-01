@@ -300,7 +300,7 @@ setEqualHeight(columns);
 
 	jQuery(window).scroll(function() {
 		var scrolled = jQuery(window).scrollTop();
-		console.log(scrolled);
+		  
 		if (scrolled > jQuery(window).height()) {
 			jQuery("body").removeClass('menu-open');
 		}
