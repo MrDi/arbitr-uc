@@ -73,6 +73,9 @@ function setEqualHeight(columns) {
 	});
 }*/
 
+
+
+jQuery(document).ready(function() {
   ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
             center: [55.719561, 37.624588],
@@ -82,14 +85,14 @@ function setEqualHeight(columns) {
             searchControlProvider: 'yandex#search'
         }),
         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
+            hintContent: ' «Юридический центр «Арбитр»',
+            balloonContent: 'каб.102,107<br> Телефон: +7 (926) 383-11-02'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: 'images/myIcon.gif',
+            iconImageHref: 'images/mark.png',
             // Размеры метки.
             iconImageSize: [30, 42],
             // Смещение левого верхнего угла иконки относительно
@@ -99,9 +102,6 @@ function setEqualHeight(columns) {
 
     myMap.geoObjects.add(myPlacemark);
 });
-
-
-jQuery(document).ready(function() {
 
 
 /*jQuery('.green-text__btn').on('click', function(e){
@@ -275,7 +275,7 @@ setEqualHeight(columns);
 
 
 	jQuery('.arrow-icon-up').on('click', function(e) {
-		e.preventDefault();
+e.preventDefault();
 		var body = jQuery("html, body");
 		body.animate({
 			scrollTop: 0
@@ -286,7 +286,7 @@ setEqualHeight(columns);
 			jQuery('.map').removeClass('active');
 	});
 	
-	jQuery('.arrow-icon').on('click', function(e) {
+	jQuery('.bottom_arr').on('click', function(e) {
 		e.preventDefault();
 		jQuery.scrollTo('.home-partners',600 );
 	});

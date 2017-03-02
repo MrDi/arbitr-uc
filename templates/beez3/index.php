@@ -94,6 +94,7 @@ require __DIR__ . '/jsstrings.php';
         </div>
         
         <div class="btn-menu" style="position: fixed; top: 0px; left: 0px; right: 0px; overflow: hidden; height: 85px;">
+       <!-- <div class="btn-menu" style="position: fixed; top: 0px; left: 0px; right: 0px; overflow: hidden; height: 85px;">-->
             <div class="midnightHeader default" style="position: absolute; overflow: hidden; top: 0px; left: 0px; right: 0px; bottom: 0px; transform: translateY(0%) translateZ(0px);">
                 <div class="midnightInner" style="position: absolute; overflow: hidden; top: 0px; left: 0px; right: 0px; bottom: 0px; transform: translateY(0%) translateZ(0px);">
                     <div class="menu-transition">
